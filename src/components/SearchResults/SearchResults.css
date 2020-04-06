@@ -1,0 +1,30 @@
+.SearchResults {
+  width: 45%;
+  min-height: 400px;
+  max-height: 700px;
+  margin-right: auto;
+  overflow-y: scroll;
+  padding: 1rem 1.2rem;
+  background-color: rgba(12, 14, 20, 0.8);
+  box-shadow: 0 4px 2px 2px #000000;
+}
+
+.SearchResults h2 {
+  font-family: 'Poppins', sans-serif;
+  border-bottom: 1px solid #6f6f6f;
+  font-size: 1.55rem;
+  padding: 1rem 2rem 1.2rem;
+  text-align: center;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+@media only screen and (max-width: 1024px) {
+  .SearchResults {
+    width: 90%;
+    margin: 0 auto 2rem;
+  }
+}
